@@ -201,6 +201,17 @@
 
 <body>
 
+    <script>
+        function abrirHogar() {
+          window.location.href = 'hogar.html';
+        }
+      </script>
+
+    <script>
+        function abrirBelleza(){
+            window.location.href = 'belleza.html';
+        }
+    </script>
     
 
     <div class="banner">
@@ -224,12 +235,12 @@
 
     <div class="botones">
 
-        <button class="bnt_higiene">
+        <button class="bnt_higiene" onclick="abrirBelleza()">
             <img src="Img/bnt_higiene_Mesa de trabajo 1.png">
             <div class="bella"> Belleza </div>
         </button>
         
-        <button class="bnt_hogar">
+        <button class="bnt_hogar" onclick="abrirHogar()">
             <img src="Img/bnt_hogar_Mesa de trabajo 1.png">
             <div class="home"> Hogar </div>
         </button>
